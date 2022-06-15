@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CAFE DE ESPECIALIDAD</title>
+    <!-- BOOTSTAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@0;1&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+
+<body>
+    <!-- HEADER | ICONO | BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg container-fluid colorMarroncontacto">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./imagenes/icons8-cafe-doodle-color-96.png" alt="" width="60"
+                    height="60"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: white;" aria-current="page" href="#">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="./nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="./contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white;" href="./nosotros.html" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PRODUCTOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">CAFE</a></li>
+                            <li><a class="dropdown-item" href="#">MAQUINAS</a></li>
+                            <li><a class="dropdown-item" href="#">UTENSILLOS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="grillaform">
+        <!-- FORMULARIO DE INICIO DE SESION -->
+        <main class="mainlogin-class container-fluid mt-3">
+            <h2 class="display-2 text-center" style="color: #070707; font-size: 2rem;" >Iniciar Sesion</h2>
+            <hr class="separador mt-0 mb-4">
+            <form action="#" method="get">
+                <label>
+                    <div class="mailfor" style="margin-bottom: 5%;">
+                        <span>Ingrese su Email </span>
+                        <input type="email" placeholder="usuario@gmail.com" name="Nombre">
+                    </div>
+                    <div class="contrafor" style="margin-bottom: 10%;">
+                        <span>Ingrese su Contraseña</span>
+                        <input type="password">
+                    </div> 
+                    <input style="margin-bottom: 10%;" type="submit" value="Ingresar">
+                </label>
+            </form>
+        </main>
+        <!-- FORMULARIO PARA REGISTRO -->
+        <main class="mainlogin-class2 container-fluid mt-3">
+            <h2 class="display-2 text-center" style="color: #050505; font-size: 2rem;">Registrarse</h2>
+            <hr class="separador mt-0 mb-4">
+            <form action="#" method="get">
+                <label>
+                    <div class="nombrefor" style="margin-bottom: 5%;">
+                        <span>Ingrese su Nombre </span>
+                        <input type="text" placeholder="Jose" name="Nombre">
+                    </div>
+                    <div class="apellidofor" style="margin-bottom: 5%;">
+                        <span>Ingrese su Apellido</span>
+                        <input type="text" placeholder="Perez" name="Apellido">
+                    </div> 
+                    <div class="mailfor" style="margin-bottom: 5%;">
+                        <span>Ingrese su Email      </span>
+                        <input type="email" placeholder="usuario@gmail.com" name="Nombre">
+                    </div>
+                    <div class="contrafor" style="margin-bottom: 10%;">
+                        <span>Ingrese su  nueva contraseña</span>
+                        <input type="password">
+                    </div> 
+                    <input style="margin-bottom: 10%;" type="submit" value="Ingresar">
+                </label>
+            </form>
+        </main>
+        <main class="comenfor" >
+            <h2 class="display-2 text-center" style="color: #0f0e0e; font-size: 3rem;">QUEREMOS ESCUCHARTE</h2>
+            <hr class="separador mt-0 mb-4">
+            <div class="form-floating" style="margin-top: 2%;margin-bottom: 3%; margin-left: 3%; margin-right: 3%;">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+            </div>
+            <input style="margin-bottom: 10%;" type="submit" value="Enviar">
+        </main>
+
+    </div>
+    <!-- PIE DE PAGINA -->
+    <footer class="footer container-fluid" style="margin-bottom:3%;">
+        <ol>
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="./imagenes/icons8-facebook-96.png"
+                        alt="" class="logo1"></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><img src="./imagenes/icons8-twitter-96.png" alt=""
+                        class="logo1"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="./imagenes/icons8-instagram-96.png"
+                        alt="" class="logo1"></a></li>
+        </ol>
+    </footer>
+
+    
+    <!-- BOOTSTAP NO BORRAR -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

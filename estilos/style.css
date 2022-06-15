@@ -18,8 +18,34 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-.footer {
+.footerindex {
     padding: 0 !important;
     margin: 0 !important;
 }
+.footer {
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+ .colorMarroncontacto {
+    background-color: #241F26;
+ }
+
+ .mainlogin-class{
+    grid-area: inicio;
+    background-color: ;
+ }
+ .mainlogin-class2 {
+    grid-area: registro;
+ }
+ .comenfor{
+    grid-area: comentario;
+ }
+ .grillaform{
+    color: aliceblue;
+    background-color: #59271C;
+    display: grid;
+    grid-template-areas: 
+    "inicio registro"
+    "comentario comentario";
+ }
 
