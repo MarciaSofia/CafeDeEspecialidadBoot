@@ -4,7 +4,7 @@
     font-family: 'Tiro Gurmukhi', serif;
 }
 .colorMarron {
-    background-color: #59271C;
+    background-color: #241F26;
 }
 .anchototal{
     padding: 0 !important;
@@ -12,7 +12,7 @@
 }
 /* FOOTER */
 .footer ol{
-    background-color: #59271C;
+    background-color: #241F26;
     display: flex;
     list-style: none;
     flex-direction: row;
