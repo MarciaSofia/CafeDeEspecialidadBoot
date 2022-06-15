@@ -1,7 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Tiro Gurmukhi', serif;
 }
-.colorMarron .container-fluid {
+.colorMarron {
     background-color: #59271C;
 }
+.anchototal{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/* FOOTER */
+.footer ol{
+    background-color: #59271C;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
