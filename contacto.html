@@ -54,62 +54,80 @@
             </div>
         </div>
     </nav>
-    <div class="grillaform">
+    <main class="grillaform">
         <!-- FORMULARIO DE INICIO DE SESION -->
-        <main class="mainlogin-class container-fluid mt-3">
-            <h2 class="display-2 text-center" style="color: #070707; font-size: 2rem;" >Iniciar Sesion</h2>
+        <div class="mainlogin-class container-fluid mt-3">
+            <h2 class="display-2 text-center" style="color: #070707; font-size: 2rem;" >Iniciar</h2>
             <hr class="separador mt-0 mb-4">
-            <form action="#" method="get">
-                <label>
-                    <div class="mailfor" style="margin-bottom: 5%;">
-                        <span>Ingrese su Email </span>
-                        <input type="email" placeholder="usuario@gmail.com" name="Nombre">
-                    </div>
-                    <div class="contrafor" style="margin-bottom: 10%;">
-                        <span>Ingrese su Contraseña</span>
-                        <input type="password">
-                    </div> 
-                    <input style="margin-bottom: 10%;" type="submit" value="Ingresar">
-                </label>
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Mantener mi sesion abierta
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+                </div>
             </form>
-        </main>
+        </div>
         <!-- FORMULARIO PARA REGISTRO -->
-        <main class="mainlogin-class2 container-fluid mt-3">
+        <div class="mainlogin-class2 container-fluid mt-3">
             <h2 class="display-2 text-center" style="color: #050505; font-size: 2rem;">Registrarse</h2>
             <hr class="separador mt-0 mb-4">
-            <form action="#" method="get">
-                <label>
-                    <div class="nombrefor" style="margin-bottom: 5%;">
-                        <span>Ingrese su Nombre </span>
-                        <input type="text" placeholder="Jose" name="Nombre">
-                    </div>
-                    <div class="apellidofor" style="margin-bottom: 5%;">
-                        <span>Ingrese su Apellido</span>
-                        <input type="text" placeholder="Perez" name="Apellido">
-                    </div> 
-                    <div class="mailfor" style="margin-bottom: 5%;">
-                        <span>Ingrese su Email      </span>
-                        <input type="email" placeholder="usuario@gmail.com" name="Nombre">
-                    </div>
-                    <div class="contrafor" style="margin-bottom: 10%;">
-                        <span>Ingrese su  nueva contraseña</span>
-                        <input type="password">
-                    </div> 
-                    <input style="margin-bottom: 10%;" type="submit" value="Ingresar">
-                </label>
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Ingrese su nombre</label>
+                  <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Ingrese su apellido</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Ingrese su email</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Ingrese su nueva contraseña</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Quiero recibir promociones
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary" style="margin-bottom: 5%;">Crear mi cuenta</button>
+                </div>
             </form>
-        </main>
-        <main class="comenfor" >
+        </div>
+        <div class="comenfor" >
             <h2 class="display-2 text-center" style="color: #0f0e0e; font-size: 3rem;">QUEREMOS ESCUCHARTE</h2>
             <hr class="separador mt-0 mb-4">
-            <div class="form-floating" style="margin-top: 2%; margin-left: 3%; margin-right: 3%;">
+            <div class="form-floating mb-4" style="margin-left:3%; margin-right:3%;">
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Comments</label>
+                <label for="floatingTextarea2">Comentarios</label>
             </div>
-            <input style="margin-top: 2%;margin-bottom: 3%; margin-left: 3%; margin-right: 3%;" type="submit" value="Enviar">
-        </main>
+            <div class="col-12 mb-4" style="margin-left:3%;">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </div>
 
-    </div>
+    </main>
     <!-- PIE DE PAGINA -->
     <footer class="footer container-fluid" style="margin-bottom:3%;">
         <ol>
